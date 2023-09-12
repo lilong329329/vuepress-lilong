@@ -16,105 +16,108 @@ module.exports = {
             {
                 text: "Java",
                 items: [
-                    {text: "Java基础",link: "https://juejin.cn"},
-                    {text: "Java Web",link: "https://juejin.cn"},
-                    {text: "JavaIO",link: "https://github.com"},
-                    {text: "Java集合",link: "https://juejin.cn"},
-                    {text: "Java并发",link: "https://juejin.cn"},
-                    {text: "Java8",link: "https://juejin.cn"},
-                    {text: "JVM",link: "https://juejin.cn"}
+                    {text: "Java基础",link: "/md/java/Java基础"},
+                    {text: "JavaWeb",link: "/md/java/JavaWeb"},
+                    {text: "JavaIO",link: "/md/java/JavaIO"},
+                    {text: "Java集合",link: "/md/java/Java集合"},
+                    {text: "Java并发",link: "/md/java/Java并发"},
+                    {text: "Java8",link: "/md/java/Java8"},
+                    {text: "JVM",link: "/md/java/JVM"}
 
                 ]
             },
             {
                 text: "数据库",
                 items: [
-                    {text: "Mysql",link: "https://juejin.cn"},
-                    {text: "Oracle",link: "https://github.com"},
-                    {text: "Redis",link: "https://github.com"},
-                    {text: "MongoDB",link: "https://github.com"},
-                    {text: "Elasticsearch",link: "https://github.com"},
+                    {text: "Mysql",link: "/md/database/Mysql"},
+                    {text: "Oracle",link: "/md/database/Oracle"},
+                    {text: "Redis",link: "/md/database/Redis"},
+                    {text: "MongoDB",link: "/md/database/MongoDB"},
+                    {text: "Elasticsearch",link: "/md/database/Elasticsearch"},
                 ]
             },
             {
                 text: "框架|中间件",
                 items: [
-                    {text: "Spring",link: "https://juejin.cn"},
-                    {text: "SpringBoot",link: "https://github.com"},
-                    {text: "SpringCloud",link: "https://github.com"},
-                    {text: "Mybatis",link: "https://github.com"},
-                    {text: "Mybatis-plus",link: "https://github.com"},
-                    {text: "RabbitMQ",link: "https://github.com"},
-                    {text: "KafKa",link: "https://github.com"},
-                    {text: "RocketMQ",link: "https://github.com"},
-                    {text: "ActivityMQ",link: "https://github.com"},
+                    {text: "Spring",link: "/md/frame/Spring"},
+                    {text: "SpringBoot",link: "/md/frame/SpringBoot"},
+                    {text: "SpringCloud",link: "/md/frame/SpringCloud"},
+                    {text: "Mybatis",link: "/md/frame/Mybatis"},
+                    {text: "Mybatis-plus",link: "/md/frame/Mybatis-plus"},
+                    {text: "RabbitMQ",link: "/md/frame/RabbitMQ"},
+                    {text: "KafKa",link: "/md/frame/KafKa"},
+                    {text: "RocketMQ",link: "/md/frame/RocketMQ"},
+                    {text: "ActivityMQ",link: "/md/frame/ActivityMQ"},
                 ]
             },
             {
                 text: "软件|部署",
                 items: [
-                    {text: "Docker",link: "https://juejin.cn"},
-                    {text: "Linux",link: "https://github.com"},
-                    {text: "Jenkins",link: "https://github.com"},
-                    {text: "Nginx",link: "https://github.com"},
-                    {text: "SVN",link: "https://github.com"},
-                    {text: "Git|GitLab|GitHub|Gitee",link: "https://github.com"},
+                    {text: "Docker",link: "/md/softdevlop/Docker"},
+                    {text: "Linux",link: "/md/softdevlop/Linux"},
+                    {text: "Jenkins",link: "/md/softdevlop/Jenkins"},
+                    {text: "Nginx",link: "/md/softdevlop/Nginx"},
+                    {text: "SVN",link: "/md/softdevlop/SVN"},
+                    {text: "Git|GitLab|GitHub|Gitee",link: "Git"},
                 ]
             },
             {
                 text: "架构|系统",
                 items: [
-                    {text: "架构基础",link: "https://juejin.cn"},
-                    {text: "分布式系统",link: "https://github.com"},
-                    {text: "微服务",link: "https://github.com"},
-                    {text: "开源对象存储-Minio",link: "https://github.com"},
-                    {text: "中移在线系统",link: "https://github.com"},
-                    {text: "商城系统",link: "https://github.com"},
-                    {text: "在线教育系统",link: "https://github.com"},
-                    {text: "智慧医疗系统",link: "https://github.com"},
-                    {text: "CRM营销系统",link: "https://github.com"},
+                    {text: "架构基础",link: "/md/jgxitong/架构基础"},
+                    {text: "分布式系统",link: "/md/jgxitong/分布式系统"},
+                    {text: "微服务",link: "/md/jgxitong/微服务"},
+                    {text: "开源对象存储-Minio",link: "/md/jgxitong/minio"},
+                    {text: "中移在线系统",link: "/md/jgxitong/中移在线系统"},
+                    {text: "商城系统",link: "/md/jgxitong/商城系统"},
+                    {text: "在线教育系统",link: "/md/jgxitong/在线教育系统"},
+                    {text: "智慧医疗系统",link: "/md/jgxitong/智慧医疗系统"},
+                    {text: "CRM营销系统",link: "/md/jgxitong/CRM营销系统"},
                 ]
             },
             {
                 text: "物联|智能",
                 items: [
-                    {text: "阿里云",link: "https://github.com"},
-                    {text: "腾讯云",link: "https://github.com"},
-                    {text: "华为云",link: "https://github.com"},
-                    {text: "搬瓦工",link: "https://github.com"},
-                    {text: "物联网相关",link: "https://juejin.cn"},
-                    {text: "CharGpt",link: "https://github.com"},
-                    {text: "前沿关注",link: "https://github.com"}
+                    {text: "阿里云",link: "/md/Iot/阿里云"},
+                    {text: "腾讯云",link: "/md/Iot/腾讯云"},
+                    {text: "华为云",link: "/md/Iot/华为云"},
+                    {text: "搬瓦工",link: "/md/Iot/搬瓦工"},
+                    {text: "物联网相关",link: "/md/Iot/物联网相关"},
+                    {text: "CharGpt",link: "/md/Iot/CharGpt"},
+                    {text: "前沿关注",link: "/md/Iot/前沿关注"}
                 ]
             },
             {
                 text: "软件|资源|教程",
                 items: [
-                    {text: "Office系列",link: "https://juejin.cn"},
-                    {text: "Adobe系列",link: "https://github.com"},
-                    {text: "idea系列",link: "https://github.com"},
-                    {text: "远程链接工具",link: "https://github.com"},
-                    {text: "亲测好用工具",link: "https://github.com"},
-                    {text: "翻墙",link: "https://github.com"},
+                    {text: "Office系列",link: "/md/softSource/Office系列"},
+                    {text: "Adobe系列",link: "/md/softSource/Adobe系列"},
+                    {text: "jetBrains系列",link: "/md/softSource/jetBrains系列"},
+                    {text: "远程链接工具",link: "/md/softSource/远程链接工具"},
+                    {text: "亲测好用工具",link: "/md/softSource/亲测好用工具"},
+                    {text: "overWall",link: "/md/softSource/overWall"},
 
                 ]
             },
             {
                 text: "工作|思考|读书",
                 items: [
-                    {text: "历史相关",link: "https://juejin.cn"},
-                    {text: "传记相关",link: "https://github.com"},
-                    {text: "科技相关",link: "https://github.com"},
-                    {text: "军事相关",link: "https://github.com"},
+                    {text: "工作总结",link: "/md/work/工作总结.md"},
+                    {text: "人生思考",link: "/md/work/人生思考.md"},
+                    {text: "历史相关",link: "/md/work/历史相关.md"},
+                    {text: "传记相关",link: "/md/work/传记相关.md"},
+                    {text: "科技相关",link: "/md/work/科技相关.md"},
+                    {text: "军事相关",link: "/md/work/军事相关.md"},
                 ]
             },
             {
                 text: "跟我学",
                 items: [
-                    {text: "能学习到什么",link: "https://juejin.cn"},
-                    {text: "掌握到什么技术",link: "https://github.com"},
-                    {text: "永久提供帮助",link: "https://github.com"},
-                    {text: "推荐工作就业",link: "https://github.com"},
+                    {text: "能学习到什么",link: "/md/followMe/能学习到什么"},
+                    {text: "掌握到什么技术",link: "/md/followMe/掌握到什么技术"},
+                    {text: "永久提供帮助",link: "/md/followMe/永久提供帮助"},
+                    {text: "推荐工作就业",link: "/md/followMe/推荐工作就业"},
+                    {text: "整体架构图",link: "/md/followMe/整体架构图"}
                 ]
             },
             {
