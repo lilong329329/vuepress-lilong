@@ -1,6 +1,6 @@
 ---
 title: 条件类型
-author: 冴羽
+author: 李龙
 date: '2021-12-12'
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
